@@ -188,19 +188,18 @@
      <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
       <div>
        <div class="flex items-center gap-3">
-        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-red-500 text-white shadow-sm" aria-hidden="true">
-         <i data-lucide="flag" style="width:25px;height:25px"></i>
+        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-red-500 text-white shadow-sm" aria-hidden="true"><i data-lucide="flag" style="width:25px;height:25px"></i>
         </div>
         <p data-template-id="game-kicker" class="canva-text m-0 font-bold uppercase tracking-[.16em]"></p>
        </div>
        <h1 data-template-id="game-title" class="canva-text title-font mt-3 mb-0 font-bold leading-tight"></h1>
       </div>
-      <div data-template-id="class-badge" class="canva-tag self-start rounded-full px-4 py-2 font-bold sm:self-center">
-       <span data-template-id="class-badge-text" class="canva-text"></span>
+      <div data-template-id="class-badge" class="canva-tag self-start rounded-full px-4 py-2 font-bold sm:self-center"><span data-template-id="class-badge-text" class="canva-text"></span>
       </div>
      </div>
      <p data-template-id="game-intro" class="canva-text mt-4 mb-0 max-w-2xl"></p>
-     <div class="mt-5 flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-3"><label data-template-id="question-count-label" class="canva-text font-bold" for="question-count">Jumlah soal:</label> <select id="question-count" class="rounded-full border-2 border-blue-200 bg-white px-4 py-2 font-bold text-[#26334d] focus:outline-none focus:ring-4 focus:ring-blue-200" aria-label="Pilih jumlah soal"> <option value="20">20 soal</option><option value="21">21 soal</option><option value="22">22 soal</option><option value="23">23 soal</option><option value="24">24 soal</option><option value="25">25 soal</option><option value="26">26 soal</option><option value="27">27 soal</option><option value="28">28 soal</option><option value="29">29 soal</option><option value="30">30 soal</option><option value="31">31 soal</option> </select>
+     <div class="mt-5 flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-3">
+      <label data-template-id="question-count-label" class="canva-text font-bold" for="question-count">Jumlah soal:</label> <select id="question-count" class="rounded-full border-2 border-blue-200 bg-white px-4 py-2 font-bold text-[#26334d] focus:outline-none focus:ring-4 focus:ring-blue-200" aria-label="Pilih jumlah soal"> <option value="20">20 soal</option><option value="21">21 soal</option><option value="22">22 soal</option><option value="23">23 soal</option><option value="24">24 soal</option><option value="25">25 soal</option><option value="26">26 soal</option><option value="27">27 soal</option><option value="28">28 soal</option><option value="29">29 soal</option><option value="30">30 soal</option><option value="31">31 soal</option> </select>
      </div>
     </header>
     <main class="mt-6">
@@ -210,8 +209,7 @@
         <p data-template-id="progress-label" class="canva-text m-0 font-bold"></p>
         <p id="question-counter" class="mt-1 mb-0 text-lg font-extrabold" aria-live="polite">Pertanyaan 1 dari 5</p>
        </div>
-       <div class="flex flex-wrap justify-end gap-2" aria-hidden="true">
-        <span class="progress-dot active"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span>
+       <div class="flex flex-wrap justify-end gap-2" aria-hidden="true"><span class="progress-dot active"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span> <span class="progress-dot"></span>
        </div>
       </div>
      </section>
@@ -219,289 +217,278 @@
       <article class="question-card active" data-question="1">
        <div data-template-id="question-card-1" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <div class="flex flex-col gap-5 sm:flex-row sm:items-start">
-         <div data-template-id="sila-tag-1" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold">
-          <span data-template-id="sila-tag-text-1" class="canva-text"></span>
+         <div data-template-id="sila-tag-1" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold"><span data-template-id="sila-tag-text-1" class="canva-text"></span>
          </div>
          <div class="text-6xl" aria-hidden="true">
           🙏
          </div>
         </div>
         <h2 data-template-id="question-text-1" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3" role="group" aria-label="Pilihan jawaban pertanyaan satu">
-         <button data-template-id="answer-1a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-1a-text" class="canva-text"></span></button> <button data-template-id="answer-1b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-1b-text" class="canva-text"></span></button> <button data-template-id="answer-1c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-1c-text" class="canva-text"></span></button>
+        <div class="space-y-3" role="group" aria-label="Pilihan jawaban pertanyaan satu"><button data-template-id="answer-1a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-1a-text" class="canva-text"></span></button> <button data-template-id="answer-1b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-1b-text" class="canva-text"></span></button> <button data-template-id="answer-1c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-1c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="2">
        <div data-template-id="question-card-2" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <div class="flex flex-col gap-5 sm:flex-row sm:items-start">
-         <div data-template-id="sila-tag-2" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold"><span data-template-id="sila-tag-text-2" class="canva-text"></span>
+         <div data-template-id="sila-tag-2" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold">
+          <span data-template-id="sila-tag-text-2" class="canva-text"></span>
          </div>
          <div class="text-6xl" aria-hidden="true">
           🤝
          </div>
         </div>
         <h2 data-template-id="question-text-2" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3" role="group" aria-label="Pilihan jawaban pertanyaan dua">
-         <button data-template-id="answer-2a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-2a-text" class="canva-text"></span></button> <button data-template-id="answer-2b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-2b-text" class="canva-text"></span></button> <button data-template-id="answer-2c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-2c-text" class="canva-text"></span></button>
+        <div class="space-y-3" role="group" aria-label="Pilihan jawaban pertanyaan dua"><button data-template-id="answer-2a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-2a-text" class="canva-text"></span></button> <button data-template-id="answer-2b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-2b-text" class="canva-text"></span></button> <button data-template-id="answer-2c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-2c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="3">
        <div data-template-id="question-card-3" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <div class="flex flex-col gap-5 sm:flex-row sm:items-start">
-         <div data-template-id="sila-tag-3" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold"><span data-template-id="sila-tag-text-3" class="canva-text"></span>
+         <div data-template-id="sila-tag-3" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold">
+          <span data-template-id="sila-tag-text-3" class="canva-text"></span>
          </div>
          <div class="text-6xl" aria-hidden="true">
           🧩
          </div>
         </div>
         <h2 data-template-id="question-text-3" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3" role="group" aria-label="Pilihan jawaban pertanyaan tiga">
-         <button data-template-id="answer-3a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-3a-text" class="canva-text"></span></button> <button data-template-id="answer-3b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-3b-text" class="canva-text"></span></button> <button data-template-id="answer-3c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-3c-text" class="canva-text"></span></button>
+        <div class="space-y-3" role="group" aria-label="Pilihan jawaban pertanyaan tiga"><button data-template-id="answer-3a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-3a-text" class="canva-text"></span></button> <button data-template-id="answer-3b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-3b-text" class="canva-text"></span></button> <button data-template-id="answer-3c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-3c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="4">
        <div data-template-id="question-card-4" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <div class="flex flex-col gap-5 sm:flex-row sm:items-start">
-         <div data-template-id="sila-tag-4" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold"><span data-template-id="sila-tag-text-4" class="canva-text"></span>
+         <div data-template-id="sila-tag-4" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold">
+          <span data-template-id="sila-tag-text-4" class="canva-text"></span>
          </div>
          <div class="text-6xl" aria-hidden="true">
           🗣️
          </div>
         </div>
         <h2 data-template-id="question-text-4" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3" role="group" aria-label="Pilihan jawaban pertanyaan empat">
-         <button data-template-id="answer-4a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-4a-text" class="canva-text"></span></button> <button data-template-id="answer-4b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-4b-text" class="canva-text"></span></button> <button data-template-id="answer-4c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-4c-text" class="canva-text"></span></button>
+        <div class="space-y-3" role="group" aria-label="Pilihan jawaban pertanyaan empat"><button data-template-id="answer-4a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-4a-text" class="canva-text"></span></button> <button data-template-id="answer-4b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-4b-text" class="canva-text"></span></button> <button data-template-id="answer-4c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-4c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="5">
        <div data-template-id="question-card-5" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <div class="flex flex-col gap-5 sm:flex-row sm:items-start">
-         <div data-template-id="sila-tag-5" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold"><span data-template-id="sila-tag-text-5" class="canva-text"></span>
+         <div data-template-id="sila-tag-5" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold">
+          <span data-template-id="sila-tag-text-5" class="canva-text"></span>
          </div>
          <div class="text-6xl" aria-hidden="true">
           🍱
          </div>
         </div>
         <h2 data-template-id="question-text-5" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3" role="group" aria-label="Pilihan jawaban pertanyaan lima">
-         <button data-template-id="answer-5a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-5a-text" class="canva-text"></span></button> <button data-template-id="answer-5b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-5b-text" class="canva-text"></span></button> <button data-template-id="answer-5c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-5c-text" class="canva-text"></span></button>
+        <div class="space-y-3" role="group" aria-label="Pilihan jawaban pertanyaan lima"><button data-template-id="answer-5a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-5a-text" class="canva-text"></span></button> <button data-template-id="answer-5b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-5b-text" class="canva-text"></span></button> <button data-template-id="answer-5c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-5c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="6">
        <div data-template-id="question-card-6" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <div class="flex flex-col gap-5 sm:flex-row sm:items-start">
-         <div data-template-id="sila-tag-6" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold">
-          <span data-template-id="sila-tag-text-6" class="canva-text"></span>
+         <div data-template-id="sila-tag-6" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold"><span data-template-id="sila-tag-text-6" class="canva-text"></span>
          </div>
          <div class="text-6xl" aria-hidden="true">
           🌟
          </div>
         </div>
         <h2 data-template-id="question-text-6" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-6a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-6a-text" class="canva-text"></span></button><button data-template-id="answer-6b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-6b-text" class="canva-text"></span></button><button data-template-id="answer-6c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-6c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-6a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-6a-text" class="canva-text"></span></button><button data-template-id="answer-6b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-6b-text" class="canva-text"></span></button><button data-template-id="answer-6c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-6c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="7">
        <div data-template-id="question-card-7" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
-        <div data-template-id="sila-tag-7" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold">
-         <span data-template-id="sila-tag-text-7" class="canva-text"></span>
+        <div data-template-id="sila-tag-7" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold"><span data-template-id="sila-tag-text-7" class="canva-text"></span>
         </div>
         <h2 data-template-id="question-text-7" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-7a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-7a-text" class="canva-text"></span></button><button data-template-id="answer-7b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-7b-text" class="canva-text"></span></button><button data-template-id="answer-7c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-7c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-7a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-7a-text" class="canva-text"></span></button><button data-template-id="answer-7b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-7b-text" class="canva-text"></span></button><button data-template-id="answer-7c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-7c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="8">
        <div data-template-id="question-card-8" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
-        <div data-template-id="sila-tag-8" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold">
-         <span data-template-id="sila-tag-text-8" class="canva-text"></span>
+        <div data-template-id="sila-tag-8" class="canva-tag inline-flex w-fit rounded-full px-4 py-2 font-extrabold"><span data-template-id="sila-tag-text-8" class="canva-text"></span>
         </div>
         <h2 data-template-id="question-text-8" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-8a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-8a-text" class="canva-text"></span></button><button data-template-id="answer-8b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-8b-text" class="canva-text"></span></button><button data-template-id="answer-8c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-8c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-8a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-8a-text" class="canva-text"></span></button><button data-template-id="answer-8b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-8b-text" class="canva-text"></span></button><button data-template-id="answer-8c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-8c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="9">
        <div data-template-id="question-card-9" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
-        <div data-template-id="question-card-9" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
-         <h2 data-template-id="question-text-9" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-         <div class="space-y-3">
-          <button data-template-id="answer-9a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-9a-text" class="canva-text"></span></button><button data-template-id="answer-9b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-9b-text" class="canva-text"></span></button><button data-template-id="answer-9c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-9c-text" class="canva-text"></span></button>
-         </div>
+        <h2 data-template-id="question-text-9" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
+        <div class="space-y-3"><button data-template-id="answer-9a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-9a-text" class="canva-text"></span></button><button data-template-id="answer-9b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-9b-text" class="canva-text"></span></button><button data-template-id="answer-9c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-9c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="10">
        <div data-template-id="question-card-10" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-10" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-10a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-10a-text" class="canva-text"></span></button><button data-template-id="answer-10b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-10b-text" class="canva-text"></span></button><button data-template-id="answer-10c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-10c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-10a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-10a-text" class="canva-text"></span></button><button data-template-id="answer-10b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-10b-text" class="canva-text"></span></button><button data-template-id="answer-10c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-10c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="11">
        <div data-template-id="question-card-11" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-11" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-11a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-11a-text" class="canva-text"></span></button><button data-template-id="answer-11b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-11b-text" class="canva-text"></span></button><button data-template-id="answer-11c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-11c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-11a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-11a-text" class="canva-text"></span></button><button data-template-id="answer-11b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-11b-text" class="canva-text"></span></button><button data-template-id="answer-11c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-11c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="12">
        <div data-template-id="question-card-12" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-12" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-12a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-12a-text" class="canva-text"></span></button><button data-template-id="answer-12b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-12b-text" class="canva-text"></span></button><button data-template-id="answer-12c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-12c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-12a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-12a-text" class="canva-text"></span></button><button data-template-id="answer-12b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-12b-text" class="canva-text"></span></button><button data-template-id="answer-12c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-12c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="13">
        <div data-template-id="question-card-13" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-13" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-13a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-13a-text" class="canva-text"></span></button><button data-template-id="answer-13b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-13b-text" class="canva-text"></span></button><button data-template-id="answer-13c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-13c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-13a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-13a-text" class="canva-text"></span></button><button data-template-id="answer-13b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-13b-text" class="canva-text"></span></button><button data-template-id="answer-13c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-13c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="14">
        <div data-template-id="question-card-14" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-14" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-14a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-14a-text" class="canva-text"></span></button><button data-template-id="answer-14b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-14b-text" class="canva-text"></span></button><button data-template-id="answer-14c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-14c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-14a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-14a-text" class="canva-text"></span></button><button data-template-id="answer-14b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-14b-text" class="canva-text"></span></button><button data-template-id="answer-14c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-14c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="15">
        <div data-template-id="question-card-15" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-15" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-15a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-15a-text" class="canva-text"></span></button><button data-template-id="answer-15b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-15b-text" class="canva-text"></span></button><button data-template-id="answer-15c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-15c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-15a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-15a-text" class="canva-text"></span></button><button data-template-id="answer-15b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-15b-text" class="canva-text"></span></button><button data-template-id="answer-15c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-15c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="16">
        <div data-template-id="question-card-16" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-16" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-16a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-16a-text" class="canva-text"></span></button><button data-template-id="answer-16b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-16b-text" class="canva-text"></span></button><button data-template-id="answer-16c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-16c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-16a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-16a-text" class="canva-text"></span></button><button data-template-id="answer-16b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-16b-text" class="canva-text"></span></button><button data-template-id="answer-16c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-16c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="17">
        <div data-template-id="question-card-17" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-17" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-17a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-17a-text" class="canva-text"></span></button><button data-template-id="answer-17b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-17b-text" class="canva-text"></span></button><button data-template-id="answer-17c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-17c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-17a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-17a-text" class="canva-text"></span></button><button data-template-id="answer-17b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-17b-text" class="canva-text"></span></button><button data-template-id="answer-17c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-17c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="18">
        <div data-template-id="question-card-18" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-18" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-18a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-18a-text" class="canva-text"></span></button><button data-template-id="answer-18b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-18b-text" class="canva-text"></span></button><button data-template-id="answer-18c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-18c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-18a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-18a-text" class="canva-text"></span></button><button data-template-id="answer-18b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-18b-text" class="canva-text"></span></button><button data-template-id="answer-18c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-18c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="19">
        <div data-template-id="question-card-19" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-19" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-19a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-19a-text" class="canva-text"></span></button><button data-template-id="answer-19b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-19b-text" class="canva-text"></span></button><button data-template-id="answer-19c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-19c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-19a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-19a-text" class="canva-text"></span></button><button data-template-id="answer-19b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-19b-text" class="canva-text"></span></button><button data-template-id="answer-19c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-19c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="20">
        <div data-template-id="question-card-20" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-20" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3">
-         <button data-template-id="answer-20a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-20a-text" class="canva-text"></span></button><button data-template-id="answer-20b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-20b-text" class="canva-text"></span></button><button data-template-id="answer-20c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-20c-text" class="canva-text"></span></button>
+        <div class="space-y-3"><button data-template-id="answer-20a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-20a-text" class="canva-text"></span></button><button data-template-id="answer-20b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-20b-text" class="canva-text"></span></button><button data-template-id="answer-20c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-20c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="21">
        <div data-template-id="question-card-21" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-21" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3"><button data-template-id="answer-21a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-21a-text" class="canva-text"></span></button><button data-template-id="answer-21b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-21b-text" class="canva-text"></span></button><button data-template-id="answer-21c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-21c-text" class="canva-text"></span></button>
+        <div class="space-y-3">
+         <button data-template-id="answer-21a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-21a-text" class="canva-text"></span></button><button data-template-id="answer-21b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-21b-text" class="canva-text"></span></button><button data-template-id="answer-21c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-21c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="22">
        <div data-template-id="question-card-22" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-22" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3"><button data-template-id="answer-22a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-22a-text" class="canva-text"></span></button><button data-template-id="answer-22b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-22b-text" class="canva-text"></span></button><button data-template-id="answer-22c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-22c-text" class="canva-text"></span></button>
+        <div class="space-y-3">
+         <button data-template-id="answer-22a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-22a-text" class="canva-text"></span></button><button data-template-id="answer-22b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-22b-text" class="canva-text"></span></button><button data-template-id="answer-22c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-22c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="23">
        <div data-template-id="question-card-23" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-23" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3"><button data-template-id="answer-23a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-23a-text" class="canva-text"></span></button><button data-template-id="answer-23b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-23b-text" class="canva-text"></span></button><button data-template-id="answer-23c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-23c-text" class="canva-text"></span></button>
+        <div class="space-y-3">
+         <button data-template-id="answer-23a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-23a-text" class="canva-text"></span></button><button data-template-id="answer-23b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-23b-text" class="canva-text"></span></button><button data-template-id="answer-23c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-23c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="24">
        <div data-template-id="question-card-24" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-24" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3"><button data-template-id="answer-24a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-24a-text" class="canva-text"></span></button><button data-template-id="answer-24b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-24b-text" class="canva-text"></span></button><button data-template-id="answer-24c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-24c-text" class="canva-text"></span></button>
+        <div class="space-y-3">
+         <button data-template-id="answer-24a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-24a-text" class="canva-text"></span></button><button data-template-id="answer-24b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-24b-text" class="canva-text"></span></button><button data-template-id="answer-24c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-24c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="25">
        <div data-template-id="question-card-25" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-25" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3"><button data-template-id="answer-25a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-25a-text" class="canva-text"></span></button><button data-template-id="answer-25b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-25b-text" class="canva-text"></span></button><button data-template-id="answer-25c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-25c-text" class="canva-text"></span></button>
+        <div class="space-y-3">
+         <button data-template-id="answer-25a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-25a-text" class="canva-text"></span></button><button data-template-id="answer-25b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-25b-text" class="canva-text"></span></button><button data-template-id="answer-25c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-25c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="26">
        <div data-template-id="question-card-26" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-26" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3"><button data-template-id="answer-26a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-26a-text" class="canva-text"></span></button><button data-template-id="answer-26b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-26b-text" class="canva-text"></span></button><button data-template-id="answer-26c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-26c-text" class="canva-text"></span></button>
+        <div class="space-y-3">
+         <button data-template-id="answer-26a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-26a-text" class="canva-text"></span></button><button data-template-id="answer-26b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-26b-text" class="canva-text"></span></button><button data-template-id="answer-26c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-26c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="27">
        <div data-template-id="question-card-27" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-27" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3"><button data-template-id="answer-27a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-27a-text" class="canva-text"></span></button><button data-template-id="answer-27b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-27b-text" class="canva-text"></span></button><button data-template-id="answer-27c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-27c-text" class="canva-text"></span></button>
+        <div class="space-y-3">
+         <button data-template-id="answer-27a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-27a-text" class="canva-text"></span></button><button data-template-id="answer-27b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-27b-text" class="canva-text"></span></button><button data-template-id="answer-27c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-27c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="28">
        <div data-template-id="question-card-28" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-28" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3"><button data-template-id="answer-28a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-28a-text" class="canva-text"></span></button><button data-template-id="answer-28b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-28b-text" class="canva-text"></span></button><button data-template-id="answer-28c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-28c-text" class="canva-text"></span></button>
+        <div class="space-y-3">
+         <button data-template-id="answer-28a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-28a-text" class="canva-text"></span></button><button data-template-id="answer-28b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-28b-text" class="canva-text"></span></button><button data-template-id="answer-28c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-28c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="29">
        <div data-template-id="question-card-29" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-29" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3"><button data-template-id="answer-29a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-29a-text" class="canva-text"></span></button><button data-template-id="answer-29b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-29b-text" class="canva-text"></span></button><button data-template-id="answer-29c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-29c-text" class="canva-text"></span></button>
+        <div class="space-y-3">
+         <button data-template-id="answer-29a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-29a-text" class="canva-text"></span></button><button data-template-id="answer-29b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-29b-text" class="canva-text"></span></button><button data-template-id="answer-29c" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">C</span><span data-template-id="answer-29c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="30">
        <div data-template-id="question-card-30" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-30" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3"><button data-template-id="answer-30a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-30a-text" class="canva-text"></span></button><button data-template-id="answer-30b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-30b-text" class="canva-text"></span></button><button data-template-id="answer-30c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-30c-text" class="canva-text"></span></button>
+        <div class="space-y-3">
+         <button data-template-id="answer-30a" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">A</span><span data-template-id="answer-30a-text" class="canva-text"></span></button><button data-template-id="answer-30b" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">B</span><span data-template-id="answer-30b-text" class="canva-text"></span></button><button data-template-id="answer-30c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-30c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
       <article class="question-card" data-question="31">
        <div data-template-id="question-card-31" class="canva-card paper-shadow rounded-[28px] p-6 md:p-9">
         <h2 data-template-id="question-text-31" class="canva-text mt-5 mb-6 font-bold leading-tight"></h2>
-        <div class="space-y-3"><button data-template-id="answer-31a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-31a-text" class="canva-text"></span></button><button data-template-id="answer-31b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-31b-text" class="canva-text"></span></button><button data-template-id="answer-31c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-31c-text" class="canva-text"></span></button>
+        <div class="space-y-3">
+         <button data-template-id="answer-31a" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">A</span><span data-template-id="answer-31a-text" class="canva-text"></span></button><button data-template-id="answer-31b" class="canva-button answer-option" type="button" data-correct="true"><span class="answer-letter">B</span><span data-template-id="answer-31b-text" class="canva-text"></span></button><button data-template-id="answer-31c" class="canva-button answer-option" type="button" data-correct="false"><span class="answer-letter">C</span><span data-template-id="answer-31c-text" class="canva-text"></span></button>
         </div>
        </div>
       </article>
